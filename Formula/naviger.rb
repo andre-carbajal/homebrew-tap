@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.22.0 at 2026-02-26T14:42:31.748308072Z
+# Generated with JReleaser 1.22.0 at 2026-02-26T19:18:33.816196205Z
 
 class Naviger < Formula
   desc "Modern Minecraft Server Manager"
@@ -8,15 +8,15 @@ class Naviger < Formula
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/andre-carbajal/Naviger/releases/download/v1.12.1/Naviger-1.12.1-linux.zip"
-    sha256 "7b8d2732f094728272efb5f149f581e83a96fe94e506bfead731067e9df3413f"
-  end
-  if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/andre-carbajal/Naviger/releases/download/v1.12.1/Naviger-1.12.1-macos-arm64.zip"
-    sha256 "afe19f4b37dd17a0a27be01cd014c1c3d330ac4d54eb37a8440933c01729c564"
+    sha256 "1635960d4c4eff6a4980a5a8c8b663f23e82990419185f0e305de09128c11492"
   end
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/andre-carbajal/Naviger/releases/download/v1.12.1/Naviger-1.12.1-macos-x64.zip"
-    sha256 "e653207eb4b9c49e85cf7ef6ae268f1ceabd057ea49dd509a0aa8e7e8cfaa82c"
+    url "https://github.com/andre-carbajal/Naviger/releases/download/v1.12.1/Naviger-1.12.1-macos.zip"
+    sha256 "4b6dfa6d8b6ee6e86c333014d580117f1b491283536879c1ea65a2edaae8bb52"
+  end
+  if OS.mac? && Hardware::CPU.arm?
+    url "https://github.com/andre-carbajal/Naviger/releases/download/v1.12.1/Naviger-1.12.1-macos.zip"
+    sha256 "4b6dfa6d8b6ee6e86c333014d580117f1b491283536879c1ea65a2edaae8bb52"
   end
 
 
