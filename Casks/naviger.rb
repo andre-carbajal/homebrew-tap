@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.22.0 at 2026-02-27T01:06:25.0959783Z
+# Generated with JReleaser 1.22.0 at 2026-02-27T02:23:18.718625669Z
 
 cask "naviger" do
   desc "Modern Minecraft Server Manager"
@@ -6,13 +6,12 @@ cask "naviger" do
   url "https://github.com/andre-carbajal/Naviger/releases/download/v1.12.1/Naviger-1.12.1-macos.pkg",
       verified: "github.com"
   version "1.12.1"
-  sha256 "07e4da213b3fbc2d0a50501a626a76d2a6574dcec78e4b04a546a12e0e8c16f5"
+  sha256 "929233a229f947ff0757c980b5e064e60fde60c9751f02fe44f4d360fb63dbb7"
   name "Naviger"
   auto_updates true
 
 
   pkg "Naviger-1.12.1-macos.pkg"
-  app "Naviger.app"
   uninstall pkgutil: [
     "com.naviger.server",
   ]
