@@ -1,14 +1,14 @@
-# Generated with JReleaser 1.24.0 at 2026-05-08T01:28:33.299398569Z
+# Generated with JReleaser 1.24.0 at 2026-05-08T03:59:08.991510308Z
 
 class Depanalyzer < Formula
   desc "Dependency Analyzer CLI"
   homepage "https://github.com/UPT-FAING-EPIS/proyecto-si784-2026-i-u1-analizador-de-dependencias"
-  version "2.0.1"
+  version "2.0.2"
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/UPT-FAING-EPIS/proyecto-si784-2026-i-u1-analizador-de-dependencias/releases/download/v2.0.1/depanalyzer-macos-arm64.zip"
-    sha256 "fe1925b08daf35766b33121d714c173f990b47ec92684b296349e6024968d0b1"
+    url "https://github.com/UPT-FAING-EPIS/proyecto-si784-2026-i-u1-analizador-de-dependencias/releases/download/v2.0.2/depanalyzer-macos-arm64.zip"
+    sha256 "4e5d77d80b8ead3d1bf79414a926a7725daf1c0a7d0c4a578642bbbab3051f4a"
   end
 
 
@@ -19,6 +19,6 @@ class Depanalyzer < Formula
 
   test do
     output = shell_output("#{bin}/depanalyzer --version")
-    assert_match "2.0.1", output
+    assert_match "2.0.2", output
   end
 end
