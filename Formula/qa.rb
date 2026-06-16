@@ -1,14 +1,14 @@
-# Generated with JReleaser 1.24.0 at 2026-06-13T21:12:05.569740815Z
+# Generated with JReleaser 1.24.0 at 2026-06-16T17:29:30.767556417Z
 
 class Qa < Formula
   desc "Query Analyzer CLI"
   homepage "https://github.com/UPT-FAING-EPIS/proyecto-si783-2026-i-u1-analizador-de-rendimiento-de-consultas"
-  version "2.1.1"
+  version "2.2.0"
   license "MIT"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/UPT-FAING-EPIS/proyecto-si783-2026-i-u1-analizador-de-rendimiento-de-consultas/releases/download/v2.1.1/qa-macos-arm64.zip"
-    sha256 "8c5d9dace447b0417203a8bb40fd66c753679c8aacdacb0a49df099e13fcf9d2"
+    url "https://github.com/UPT-FAING-EPIS/proyecto-si783-2026-i-u1-analizador-de-rendimiento-de-consultas/releases/download/v2.2.0/qa-macos-arm64.zip"
+    sha256 "2ef595b09960f787271fa1d641b7cba05d1571e6fff3d0a5b0083f455eebda3a"
   end
 
 
@@ -19,6 +19,6 @@ class Qa < Formula
 
   test do
     output = shell_output("#{bin}/qa --version")
-    assert_match "2.1.1", output
+    assert_match "2.2.0", output
   end
 end
