@@ -5,7 +5,6 @@
 class Goeverything < Formula
   desc "Fast local file indexing and search"
   homepage "https://github.com/andre-carbajal/GoEverything"
-  version "2.2.2"
   license "GPL-3.0-only"
   depends_on :macos
 

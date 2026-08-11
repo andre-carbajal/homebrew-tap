@@ -1,48 +1,11 @@
 # Homebrew
 
-## Formulae
-Invoke either of the following commands if the formula is hosted at GitHub
-
-```sh
-$ brew install andre-carbajal/tap/<formula>
-```
-
-Or
+Install GoEverything with:
 
 ```sh
 $ brew tap andre-carbajal/tap
-$ brew install <formula>
+$ brew install goeverything
 ```
-
-Invoke the following command if the formula is *not* hosted at GitHub
-
-```sh
-brew tap andre-carbajal/homebrew-tap https://github.com/andre-carbajal/homebrew-tap.git
-brew install <formula>
-```
-
-## Casks
-Invoke either of the following commands if the cask is hosted at GitHub
-
-```sh
-$ brew install --cask andre-carbajal/tap/<cask>
-```
-
-Or
-
-```sh
-$ brew tap andre-carbajal/tap
-$ brew install --cask <cask>
-```
-
-Invoke the following command if the cask is *not* hosted at GitHub
-
-```sh
-brew tap andre-carbajal/homebrew-tap https://github.com/andre-carbajal/homebrew-tap.git
-brew install --cask <formula>
-```
-
-If you get a dialog stating the cask is broken try installing with `--no-quarantine`.
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
