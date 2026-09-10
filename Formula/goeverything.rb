@@ -5,20 +5,21 @@
 class Goeverything < Formula
   desc "Fast local file indexing and search"
   homepage "https://github.com/andre-carbajal/GoEverything"
+  version "2.2.3"
   license "GPL-3.0-only"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/andre-carbajal/GoEverything/releases/download/v2.2.2/goeverything_2.2.2_darwin_amd64.tar.gz"
-    sha256 "9c056cb4fecd6e6811c138c17f8f4e4c5992b1569bdc558234929ee209f3f87f"
+    url "https://github.com/andre-carbajal/GoEverything/releases/download/v2.2.3/goeverything_2.2.3_darwin_amd64.tar.gz"
+    sha256 "b0be65b9f998f9e12aa5af0092089d1943f5b09b04978bb5ac53c7988366eede"
 
     define_method(:install) do
       bin.install "ge"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/andre-carbajal/GoEverything/releases/download/v2.2.2/goeverything_2.2.2_darwin_arm64.tar.gz"
-    sha256 "86490aa1ca673515f9a468d568522ed95056eeed06154134ec0dd4fb0ee1d471"
+    url "https://github.com/andre-carbajal/GoEverything/releases/download/v2.2.3/goeverything_2.2.3_darwin_arm64.tar.gz"
+    sha256 "04ef6d72fbd5e21bd215e37602105c19410436439456223fcda09e571d19bfa3"
 
     define_method(:install) do
       bin.install "ge"
